@@ -1,9 +1,9 @@
 ---
-name: behance-case-study-builder
+name: case-study-builder
 description: Use when the user asks to build a Behance case study, a portfolio case study, or a UX case study PDF from app screens, a logo and a design guide. Trigger phrases include "build a Behance case study", "turn my app screens into a case study", "export my case study as numbered PNG segments". Produces segment layouts, section copy, and PNG, PDF and HTML export. Do not use for a single slide, a one-off social post, or a case study with no screens.
 ---
 
-# Behance case study builder
+# Case study builder
 
 ## Scope
 

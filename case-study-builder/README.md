@@ -1,4 +1,4 @@
-# Behance case study builder
+# Case study builder
 
 A Claude skill that turns app screens, a logo and a design guide into a Behance-ready UX case study: section order, copy rules, layout tokens, and PNG, PDF and HTML export.
 
