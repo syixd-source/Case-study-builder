@@ -1,6 +1,6 @@
 # Case study builder
 
-A Claude skill that turns app screens, a logo and a design guide into a Behance-ready UX case study: section order, copy rules, layout tokens, and PNG, PDF and HTML export.
+A Claude skill that turns app screens, a logo and a design guide into a UX or product design case study for a portfolio website, Behance, Dribbble or a PDF. It covers section order, copy rules, layout tokens, and numbered image, PDF and HTML export.
 
 ## Install
 
@@ -10,9 +10,9 @@ A Claude skill that turns app screens, a logo and a design guide into a Behance-
 
 ## Try it
 
-> Build a Behance case study for [app name]. I have the screens, the logo and the design guide. Start with intake.
+> Build a case study for my app for my portfolio site and Dribbble. I have the screens, the logo and the design guide. Start with intake.
 
-Claude asks for anything missing before writing copy.
+Claude asks for anything missing, including which platforms you're publishing to, before it writes any copy.
 
 ## Test plan
 
@@ -20,17 +20,17 @@ Expected inputs and outputs for checking the skill works:
 
 | Test | Input | Expected |
 | --- | --- | --- |
-| Trigger | "Build a Behance case study for my app" | Skill activates, starts intake |
-| Trigger | "Turn my app screens into a case study" | Skill activates |
+| Trigger | "Build a case study for my portfolio" | Skill activates, starts intake |
+| Trigger | "Make a Behance case study" | Skill activates |
 | No-trigger | "Make me a slide deck" | Skill does not activate |
-| Missing data | Brief with no tester count | Output says the count is missing, no number invented |
+| Missing data | Brief with no testing details | Output says testing details are missing, no number invented |
 | Placeholder check | Any finished run | No square-bracket placeholders in output |
-| Export | Finished HTML | 19 numbered PNGs at 2800px wide, PDF with one segment per page |
+| Export | Finished HTML | Numbered 2x PNGs in order, PDF with one segment per page |
 
 ## Files
 
 - `SKILL.md`: the skill.
-- `examples/sample-intake.md`: a filled intake and the segment order it produces.
+- `examples/sample-intake.md`: a fictional filled intake and the segment order it produces.
 
 ## Notes
 
