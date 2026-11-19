@@ -1,14 +1,13 @@
 ---
 name: behance-case-study-builder
-description: Builds a structured, Behance-ready UX case study from app screens, a logo and a design guide, with segment layout, section copy, and PNG, PDF and HTML export. Use when the user asks to build a Behance case study, a portfolio case study, or a UX case study PDF. Trigger phrases include "build a Behance case study", "turn my app screens into a case study", "export my case study as numbered PNG segments".
-when_to_use: |
-  Use when the user has app screens and wants a portfolio case study.
-  Do NOT use for: a single slide or a one-off social post, a Figma file build, a case study with no screens (ask for them first), or writing a case study for a client's private review.
-version: 1.1.0
-author: Oluwaseyi Dada
+description: Use when the user asks to build a Behance case study, a portfolio case study, or a UX case study PDF from app screens, a logo and a design guide. Trigger phrases include "build a Behance case study", "turn my app screens into a case study", "export my case study as numbered PNG segments". Produces segment layouts, section copy, and PNG, PDF and HTML export. Do not use for a single slide, a one-off social post, or a case study with no screens.
 ---
 
 # Behance case study builder
+
+## Scope
+
+Do NOT use for: a single slide or social post, a Figma file build, or a case study with no screens (ask for the screens first).
 
 ## Input and output
 
