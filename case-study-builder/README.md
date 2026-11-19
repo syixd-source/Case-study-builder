@@ -4,7 +4,7 @@ A Claude skill that turns app screens, a logo and a design guide into a Behance-
 
 ## Install
 
-1. Unzip the download. SKILL.md sits at the top level.
+1. Unzip the download. SKILL.md sits inside the case-study-builder folder.
 2. Add the skill in Claude (Settings, then Skills, then upload).
 3. Optional: install the recommended skills listed at the end of SKILL.md.
 
